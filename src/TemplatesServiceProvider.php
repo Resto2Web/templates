@@ -15,7 +15,7 @@ class TemplatesServiceProvider extends ServiceProvider
          * Optional methods to load your package assets
          */
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'templates');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'templates');
+         $this->loadViewsFrom(__DIR__.'/../resources/views', 'resto2web.templates');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
