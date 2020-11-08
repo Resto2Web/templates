@@ -1,0 +1,54 @@
+{
+    "name": "resto2web/templates",
+    "description": "Templates package for Resto2Web websites",
+    "keywords": [
+        "resto2web",
+        "templates"
+    ],
+    "homepage": "https://github.com/resto2web/templates",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lucas Houssa",
+            "email": "lucas@retinens.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Resto2web\\Templates\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Resto2web\\Templates\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Resto2web\\Templates\\TemplatesServiceProvider"
+            ],
+            "aliases": {
+                "Templates": "Resto2web\\Templates\\TemplatesFacade"
+            }
+        }
+    }
+}
