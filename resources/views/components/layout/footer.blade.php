@@ -1,7 +1,7 @@
 <div class="bg-light py-7 my-2">
     <div class="container">
         <div class="text-center">
-            <img src="http://placehold.it/150x150" alt="" class="img-fluid mt--2">
+            <img src="http://placehold.it/150x150" alt="" class="img-fluid mt--9">
         </div>
         <div class="row mt-5">
             <div class="col-lg-4">

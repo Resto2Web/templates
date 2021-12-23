@@ -4,8 +4,6 @@
             <div class="text-center text-white">
                 <h2 class="h1">Où nous trouver&nbsp?</h2>
                 <div id="map" class="rounded mt-4" style="height: 500px"></div>
-
-
             </div>
         </div>
     </div>
