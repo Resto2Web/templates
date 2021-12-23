@@ -1,0 +1,11 @@
+
+// Text size
+
+.text-xs { font-size: $font-size-xs !important; }
+.text-sm { font-size: $font-size-sm !important; }
+.text-lg { font-size: $font-size-lg !important; }
+.text-xl { font-size: $font-size-xl !important; }
+//
+//@each $color, $value in $colors {
+//  @include text-emphasis-variant(".text-#{$color}", $value);
+//}

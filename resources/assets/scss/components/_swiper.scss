@@ -1,0 +1,15 @@
+.swiper-pagination-bullet {
+    width: 14px !important;
+    height: 14px !important;
+}
+.swiper-button-prev, .swiper-button-next, .swiper-button-prev-product, .swiper-button-next-product{
+    color: $primary !important;
+}
+@include respond-above("md"){
+    .swiper-slide {
+        height: auto;
+    }
+}
+.swiper-pagination-bullet-active{
+    background-color: $primary !important;
+}

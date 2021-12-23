@@ -3,6 +3,7 @@
 namespace Resto2web\Templates;
 
 use Illuminate\Support\ServiceProvider;
+use Resto2web\Templates\Console\Commands\PublishThemeAssets;
 
 class TemplatesServiceProvider extends ServiceProvider
 {
@@ -30,9 +31,10 @@ class TemplatesServiceProvider extends ServiceProvider
             ], 'views');*/
 
             // Publishing assets.
-            /*$this->publishes([
-                __DIR__.'/../resources/assets' => public_path('vendor/templates'),
-            ], 'assets');*/
+            // Publishing assets.
+            $this->publishes([
+                __DIR__.'/../publishable/assets' => public_path('vendor'),
+            ], 'assets');
 
             // Publishing the translation files.
             /*$this->publishes([
@@ -40,7 +42,9 @@ class TemplatesServiceProvider extends ServiceProvider
             ], 'lang');*/
 
             // Registering package commands.
-            // $this->commands([]);
+             $this->commands([
+                 PublishThemeAssets::class
+             ]);
         }
     }
 
