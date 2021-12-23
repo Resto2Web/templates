@@ -1,0 +1,7 @@
+@include("resto2web.templates::template1.components.layout.navbar")
+@include("resto2web.templates::template1.components.home.hero")
+@include("resto2web.templates::template1.components.home.about-us")
+@include("resto2web.templates::template1.components.home.menu")
+@include("resto2web.templates::template1.components.home.pictures")
+@include("resto2web.templates::template1.components.home.where-to-find-us")
+@include("resto2web.templates::template1.components.layout.footer")
