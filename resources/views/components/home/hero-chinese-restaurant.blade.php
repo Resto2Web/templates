@@ -1,5 +1,5 @@
 @php( $homeSlide = $homeSlides->first())
-<div class="" style="background-image: url('{{ $homeSlide->getFirstMediaUrl('image') }}'); background-size: cover ;background-attachment: fixed">
+<div class="" style="background-image: url('{{ $homeSlide->image_url }}'); background-size: cover ;background-attachment: fixed">
     <div class="container py-9">
 
         <div class="text-center text-white">
