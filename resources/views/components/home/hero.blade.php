@@ -3,7 +3,7 @@
     <div class="swiper-wrapper">
         @foreach ($homeSlides as $homeSlide)
             <div class="swiper-slide  ">
-                <div class="d-flex justify-content-center align-items-center " style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url({{ $homeSlide->getFirstMediaUrl('image') }});
+                <div class="d-flex justify-content-center align-items-center " style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url({{ $homeSlide->image_url }});
                 background-position: center;
                 height: 80vh;
                 -webkit-background-size: cover;

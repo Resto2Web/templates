@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="col-lg-8">
-                <img src="{{ $homeSlide->getFirstMediaUrl('image') }}" alt="" class="img-fluid rounded">
+                <img src="{{ $homeSlide->image_url }}" alt="" class="img-fluid rounded">
             </div>
         </div>
     </div>

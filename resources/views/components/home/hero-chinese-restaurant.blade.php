@@ -12,10 +12,6 @@
                 <a href="" class="btn btn-primary">Notre menu</a>
             </div>
         </div>
-        {{--            <div class="col-lg-8">--}}
-        {{--                <img src="{{ $homeSlide->getFirstMediaUrl('image') }}" alt="" class="img-fluid rounded">--}}
-        {{--            </div>--}}
-
     </div>
     <div class="overflow-hidden bg-transparent">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" fill="var(--bs-dark)" preserveAspectRatio="none" width="100vw" height="10vh">
