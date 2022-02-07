@@ -1,0 +1,9 @@
+.btn-primary{
+    @extend .bg-primary;
+    @extend .border-0;
+}
+
+.btn-secondary{
+    @extend .bg-secondary;
+    @extend .border-0;
+}
